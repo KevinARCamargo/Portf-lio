@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+}
+
+.linha{
+    width: 13%;
+    margin-top: 3vh;
+}
+
+h1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 4vh;
+    font-weight: 600;
+    margin: 0; 
+}
+
+h2{
+    color: #000;
+    font-family: Inter;
+    font-size: 2.5vh;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+h3{
+    margin-top: 22px;
+    color: #000;
+    font-family: Inter;
+    font-size: 2vh;
+    font-weight: 700;
+    line-height: 22px;
+    margin-top: 1.5vh; 
+
+}
+
+p{
+    color: #000;
+    font-family: Inter;
+    font-size: 2vh;
+    line-height: 22px;
+    margin-top: 2vh; 
+    text-align: justify;
+}
+main{
+    display: flex;
+    margin-top: 5vh;
+    column-gap: 5%;
+    row-gap: 0;
+    flex-wrap: wrap;
+}
+
+.imagem{
+    width: 45%;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+}
+
+.capa{
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.descricao{
+    width: 45%;
+}
+
+.tecnologias{
+    margin-left: 2.5vw;margin-top: 5vh;
+    width: 45%;
+    height: 20vh;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.icons{
+    width: 10%;
+}
+
+.box-text{
+    margin: 0;
+    position: absolute;
+}
+
+.btn{
+
+    margin-top: 5vh;
+    width: 45%;
+    height: 20vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    position: relative;
+
+}
+
+.btn-proj {
+    background-color: #50478a;
+    border-radius: 10px;
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    height: 7vh;
+    width: 10vw;
+    transition: transform 0.2s ease-in-out;  
+}
+
+.btn-proj:hover {
+    transform: translateY(-5px);  
+}
+
+.btn-proj:active {
+    transform: translateY(0);  
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#Memoria{
+    background-color: #90ee90;
+}
+
+/*Celular*/
+@media screen and (max-width: 600px) {
+    /* Estilos específicos para telas menores, por exemplo, menos de 600 pixels de largura */
+    
+  }
+  

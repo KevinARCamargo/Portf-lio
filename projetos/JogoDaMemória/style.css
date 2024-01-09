@@ -1,0 +1,193 @@
+/*Características Gerais*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+p {
+    color: gray;
+}
+
+/*Características da Home*/
+.bichinhos {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+/*Características dos Botões*/
+.wrapper {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #03A60E;
+    border: 2px solid #03A60E;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+a span {
+    position: relative;
+    z-index: 2;
+}
+
+a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: lightgreen;
+    border-radius: 20px;
+    transition: all .35s;
+}
+
+a:hover {
+    color: white;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#jogadas{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+/*Características da Fase do Pinguim*/
+#boardP {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 20px;
+    width: 85%;
+    height: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.cardFlipped{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#boardE {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    gap: 20px;
+    width: 85%;
+    height: 450px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+
+#boardG {
+    display: grid;
+    grid-template-columns: repeat(10, 100px);
+    gap: 20px;
+    width: 85%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-family: sans-serif;
+    align-content: center;
+    justify-content: center;
+}
+
+.parabens-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.parabens-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #03A60E;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+}

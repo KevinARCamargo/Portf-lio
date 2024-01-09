@@ -11,39 +11,92 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#Sobre">Projetos</a></li>
-                <li><a href="#Projetos">Sobre</a></li>
-                <li><a href="#Contatos">Contatos</a></li>
+                <li><a class="navegacao" href="#">Home</a></li>
+                <li><a class="navegacao" href="#Projetos">Projetos</a></li>
+                <li><a class="navegacao" href="#Habilidades">Habilidades</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Olá, Eu sou <br>
-        Kevin Camargo.</h1>
+    <main class="cartao">
+        <img src="assets/Tracinho.svg" id="tracinho">
+        <h1>Olá, Eu sou <br></h1>
+        <h1>Kevin Camargo.</h1>
         <h3>Desenvolvedor</h3>
-        <a href="https://github.com/KevinARCamargo?tab=repositories"><img src="assets/IconeGit.png" class="icon" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/kevin-augusto-reis-de-camargo-5025111b6/"><img src="assets/IconeLinke.png" class="icon" alt="LinkedIn"></a>
-        <a href="https://www.instagram.com/kevin.ardc/"><img src="assets/IconeInsta.png" class="icon" alt="Instagram"></a>
-        <img src="#" alt="Imagem">
-        <div class="button-container">
-            <button class="card">Projects</button>
-            <button class="card">Contatos</button>
+        <div class="icones-group">
+            <a href="https://github.com/KevinARCamargo?tab=repositories" target="_blank"><img src="assets/IconeGit.png" class="icon" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/kevin-augusto-reis-de-camargo-5025111b6/" target="_blank"><img src="assets/IconeLinke.png" class="icon" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/kevin.ardc/" target="_blank"><img src="assets/Vector.png" class="icon" alt="Instagram"></a>
+            <a href="https://api.whatsapp.com/qr/YISDCXIBKMQ4G1" target="_blank"><img src="assets/Zap.png" class="icon" alt="Instagram"></a>
         </div>
+        <div >
+            <img src="assets/qr.jpeg" class="qr-code">
+        </div>
+        <img src="assets/perfil.png" class="perfil">
+        
     </main>
     </section>
 
-    <section id="Sobre">
-        <h2>Projetos</h2>
-    </section>
-
     <section id="Projetos">
-        <h2>Projetos</h2>
+        <a href="#Projetos"><img src="assets/btn-seta.svg" class="btn-seta"></a>
+        <h2>PROJETOS</h2>
+        <div class="project-box">
+            <div class="project">
+                <img src="assets/lulacoin.jpeg" class="img-proj">
+                <h4>LULA COIN</h4>
+                <p>Protótipo de criptomoeda desenvolvido em Python com interface Web</p>
+                <a href="paginas/lula Coin.html" target="_blank"><button class="btn-proj">Ver Mais</button></a>
+            </div>
+            <div class="project">
+                <img src="assets/pinguim.png" class="img-proj">
+                <h4>JOGO DA MEMÓRIA</h4>
+                <p>Jogo da memória com interface web</p>
+                <a href="paginas/JogoDaMemoria.html" target="_blank"><button class="btn-proj">Ver Mais</button></a>
+            </div>
+            <div class="project-box">
+                <div class="project">
+                    <img src="assets/hamburguer.jpeg" class="img-proj">
+                    <h4>Hamburgueria</h4>
+                    <p>Protótipo de site para uma hamburgueria</p>
+                    <a href="paginas/lula Coin.html" target="_blank"><button class="btn-proj">Ver Mais</button></a>
+                </div>
+           
+           <!--<div id="verMais">Ver Mais</div>--> 
+        </div>
+
     </section>
 
-    <section id="Contatos">
-
+    <section id="Habilidades">
+        <a href="#Habilidades"><img src="assets/btn-seta.svg" class="btn-seta"></a>
+        <h2>HABILIDADES</h2>
+        <div class="competencias-box">
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/C.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/java.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/html.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/css.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/js.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/sql.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/python.svg" class="skills-img"></div>
+            </div>
+            <div class="skills">
+                <div class="skills-img-container"><img src="assets/spring.svg" class="skills-img"></div>
+            </div>
+            
+        </div>
     </section>
-    
+
+    <script src="script/script.js"></script>
 </body>
 </html>
