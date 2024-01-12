@@ -357,21 +357,19 @@ main{
     }
 
     h1{
+        margin-left: -52%;
+        margin-top: 70%;
         color: #000;
         font-family: Inter;
-        font-size: 3vh;
+        font-size: 6vw;
         font-style: normal;
         font-weight: 700; 
-        margin-left: 0vh;
-        margin-top: 60%;
         white-space: nowrap;
         position: absolute;
-        display: inline;
-        left: 23%;
     }
 
     #segundaLinha{
-        margin-left: 23%;
+        margin-left: 37%;
     }
 
     h2{
@@ -406,14 +404,14 @@ main{
     }
 
     h3{
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 80%;
         color: #000;
         font-family: Inter;
-        font-size: 2vh;
+        font-size: 4vw;
         font-style: normal;
         font-weight: 500;
-        position: absolute;
-        margin-top: 65%;
-        left: 36%;
     }
 
     .perfil{
@@ -474,17 +472,17 @@ main{
 
     /*Habilidades*/
     .competencias-box {
+
         margin: 15vh 15vw 0vh 15vw;
         height: 40vh;
-        column-gap: 5vh;
-        row-gap: 0vh; /* Ajuste o valor conforme necessário */
+        gap: 5vw;
         border: none;
         color: #fff;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-      }
+    }
       
     
     .skills-img{
