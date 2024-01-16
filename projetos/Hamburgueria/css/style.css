@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Agrandir:wght@400;700&display=swap');
+
+/*Configurações Globais*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
+    background-image: url(../imagens/chedar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #434343;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #f9b025;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+      
+.logo-home{
+    position: absolute;
+    left: 5.5%;
+    top: 6.5%;
+    width: 10vw;
+    height: 10vw;
+    margin-top: 10px;
+    border-radius: 180px;
+}
+
+header{
+    padding-top: 5px;
+}
+
+/*Configurações dos Menus*/
+nav{
+    text-align: center;
+    font-family: 'Agrandir', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.icons {
+    padding-right: 5px;
+    height: 17px;
+    width: 17px;
+}
+
+a.menu {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    margin-left: 5vw;
+}
+
+section{
+    width: 100%;
+    background-color: #000;
+}
+
+h1{
+    margin-top: 2vh;
+    font-family: 'Agrandir', sans-serif;
+    color: #f9b025;
+}
+
+
+/*Configurações Especícas da Home*/
+main.home{
+    text-align: center;
+}
+
+.imgHome{
+    width: 50%;
+    height: auto;
+    margin-top: 28vh;
+}
+
+/*Configurações Específicas do Cardápio*/
+
+#cardapio{
+    padding-bottom: 5vh;
+}
+
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    row-gap: 4vh;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.tituloCarda{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 2%;
+}
+
+.Cardápio{
+    width: 300px;
+    min-height: 300px;
+    border-radius: 10px;
+    background-color: #f2e5d4;
+    text-align: center;
+}
+
+.imagens{
+    margin-top: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.prod{
+    font-family: 'Agrandir', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+
+
+  
+
+/*Configurações Específicas do Sobre*/
+
+#sobre{
+    text-align: center;
+    height: 100vh;
+    background-image: url(../imagens/fundo-sobre.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+}
+
+.logo-sobre{
+    left: 5vw;
+    margin-top: 15px;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 180px;
+    position: absolute;
+}
+
+h2{
+    padding-top: 5vh;
+    font-family: 'Agrandir', sans-serif;
+    color: #000;
+}
+
+p{
+    margin-top: 12vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    font-family: 'Agrandir', sans-serif;
+    text-align: justify;
+    color: #000;
+    font-weight: 500;
+}
+
+.transparencia{
+    margin: auto;
+    margin-top: 5vh;
+    width: 21vw;
+    height: 21vw;
+    border: 2px solid #000; 
+}
+
+.lolja{
+    margin-top: 1vh;
+    width: 20vw;
+}
+
+#contatos{
+    font-family: 'Agrandir', sans-serif;
+    font-weight: bold;
+    color: #f9b025;
+    position: absolute;
+    margin-top: -1vh;
+    margin-left: 1vw;
+}
+
+#contatos-itens{
+    font-family: 'Agrandir', sans-serif;
+    color: #f9b025;
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    line-height: 4vh;
+}
+
+#endereco{
+    font-family: 'Agrandir', sans-serif;
+    font-weight: bold;
+    color: #f9b025;
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 72vw;
+}
+
+#endereco-itens{
+    font-family: 'Agrandir', sans-serif;
+    color: #f9b025;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 73.5vw;
+}
+
+.icon{
+    width: 1.2vw;
+    height: 1.2vw;
+    display: inline;
+    margin-right: 0.5vw;
+}
+
+/*Celular*/
+@media screen and (max-width: 600px) {
+
+    .logo-sobre{
+        left: 5vw;
+        margin-top: 15px;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 180px;
+        position: absolute;
+    }
+
+    .logo-home{
+        position: absolute;
+        left: 1%;
+        top: 1%;
+        width: 10vw;
+        height: 10vw;
+        margin-top: 0px;
+        border-radius: 180px;
+    }
+
+    .icons {
+        padding-right: 5px;
+        height: 4vw;
+        width: 4vw;
+    }
+
+    a.menu {
+        padding: 10px;
+        text-decoration: none;
+        color: #000;
+        font-size: 4vw;
+        margin-left: 3vw;
+    }
+    
+    .imgHome{
+        width: 90%;
+        height: auto;
+        margin-top: 25vh;
+        margin-left: -5vw;
+    }
+
+    .caixas {
+        display: flex; 
+        justify-content: center; 
+    }
+    
+    .tituloCarda {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .Cardápio {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+        background-color: #f2e5d4;
+        text-align: center;
+    }
+    
+    .imagens {
+        margin-top: 20px;
+        width: 70vw;
+        height: 50vw;
+        border-radius: 10px;
+    }
+    
+    .prod {
+        font-family: 'Agrandir', sans-serif;
+        color: black;
+        font-size: 6vw;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #sobre{
+        text-align: center;
+        height: 100vh;
+        background-image: url(../imagens/fundo-cell.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 2% 30%;
+    }
+
+    h2{
+        padding-top: 2vh;
+        font-family: 'Agrandir', sans-serif;
+        color: #000;
+        margin-left: 8vw;
+        margin-right: 2vw;
+    }
+    
+    p{
+        margin-top: 4vh;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        font-family: 'Agrandir', sans-serif;
+        text-align: justify;
+        color: #000;
+        font-weight: 500;
+        font-size: 4vw;
+    }
+
+    .transparencia{
+        margin: auto;
+        margin-top: 5vh;
+        width: 42vw;
+        height: 42vw;
+        border: 2px solid #000; 
+    }
+    
+    .lolja{
+        margin-top: 0.5vh;
+        width: 40vw;
+    }
+
+    #contatos{
+        font-family: 'Agrandir', sans-serif;
+        font-weight: bold;
+        color: #f9b025;
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 4vw;
+        display: none;
+    }
+    
+    #contatos-itens{
+        font-family: 'Agrandir', sans-serif;
+        color: #f9b025;
+        position: absolute;
+        margin-top: 15vh;
+        margin-left: 6vw;
+        line-height: 4vh;
+    }
+    
+    #endereco{
+        font-family: 'Agrandir', sans-serif;
+        font-weight: bold;
+        color: #f9b025;
+        position: absolute;
+        margin-top: 1vh;
+        margin-left: 72vw;
+        display: none;
+    }
+    
+    #endereco-itens{
+        font-family: 'Agrandir', sans-serif;
+        color: #f9b025;
+        position: absolute;
+        margin-top: 24vh;
+        margin-left: 6vw;
+    }
+
+    .icon{
+        width: 3.5vw;
+        height: 3.5vw;
+        display: inline;
+        margin-right: 0.5vw;
+    }
+}

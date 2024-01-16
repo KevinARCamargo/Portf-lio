@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pedidos</title>
+</head>
+<body>
+    <header>
+        <div class="alinhamento">
+            <img src="../imagens/logo.png" class="logo">
+        </div>
+        
+        <nav>
+            <a class="menu" href="../index.html"><img src="../imagens/iconHam.png" class="icons">Home</a>
+            <a class="menu" href="imagens.html"><img src="../imagens/iconPiz.png" class="icons">Cardápio</a>
+            <a class="menu" href="cadastro.html"><img src="../imagens/iconBat.png" class="icons">Pedidos</a>
+        </nav>
+
+    </header>
+    <main>
+        <form method="POST">
+            <div class="tituloPed"><h1  id="tPedidos">Pedidos</h1></div>
+            <br>
+            <input type="text" placeholder="Nome: " id="nome" name="nome" class="campTxt"required>
+            <br><br>
+            <input type="text" placeholder="Endereço: "id="endereco" name="endereco" class="campTxt" required>
+            <br><br>
+            <div  class="Hamburguer"required>
+                <div class="coluna"><input type="number" name="Barbecue" placeholder="0" class="inptNum" min="0"> Barbecue</div>
+                <div class="coluna"><input type="number" name="Chicken" placeholder="0" class="inptNum" min="0"> <p>Chicken</p> </div>
+                <div class="coluna"><input type="number" name="king" placeholder="0" class="inptNum" min="0"> <p>King</p></div>  
+                <div class="coluna"><input type="number" name="Cheddar" placeholder="0" class="inptNum" min="0"> <p>Cheddar</p></div> 
+                <div class="coluna"><input type="number" name="Salada" placeholder="0" class="inptNum" min="0"> <p>Salada</p></div>  
+                <div class="coluna"><input type="number" name="Duplo-Salada" placeholder="0" class="inptNum" min="0"><p> Duplo-Salada</p></div> 
+                <div class="coluna"><input type="number" name="Equilíbrio" placeholder="0" class="inptNum" min="0"> <p>Equilíbrio</p></div> 
+                <div><input type="number" name="Explosão" placeholder="0" class="inptNum" min="0"> <p>Explosão</p></div>  
+            </div>
+            <br>
+            <select id="pagamento" name="pagamento" class="campBtn">
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="dinheiro">Dinheiro</option>
+                <option value="pix">Pix</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Enviar Pedido" class="campBtn">
+        </form>
+    </main>
+    <footer class="home">
+        <P>Designed by Kevin Camargo
+        </P>
+    </footer>
+</body>
+</html>
