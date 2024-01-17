@@ -153,6 +153,7 @@ main.home{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 70%;
+    position: relative;
 }
 
 .logo-sobre{
@@ -198,7 +199,7 @@ p{
     font-weight: bold;
     color: #f9b025;
     position: absolute;
-    margin-top: -1vh;
+    top: 73vh;
     margin-left: 1vw;
 }
 
@@ -206,7 +207,7 @@ p{
     font-family: 'Agrandir', sans-serif;
     color: #f9b025;
     position: absolute;
-    margin-top: 4vh;
+    top: 78vh;
     margin-left: 2vw;
     line-height: 4vh;
 }
@@ -216,7 +217,7 @@ p{
     font-weight: bold;
     color: #f9b025;
     position: absolute;
-    margin-top: 1vh;
+    top: 75vh;
     margin-left: 72vw;
 }
 
@@ -224,7 +225,7 @@ p{
     font-family: 'Agrandir', sans-serif;
     color: #f9b025;
     position: absolute;
-    margin-top: 5vh;
+    top: 80vh;
     margin-left: 73.5vw;
 }
 
@@ -274,7 +275,7 @@ p{
     .imgHome{
         width: 90%;
         height: auto;
-        margin-top: 25vh;
+        margin-top: 30vh;
         margin-left: -5vw;
     }
 
@@ -321,14 +322,15 @@ p{
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 2% 30%;
+        position: relative;
     }
 
     h2{
         padding-top: 2vh;
         font-family: 'Agrandir', sans-serif;
         color: #000;
-        margin-left: 8vw;
-        margin-right: 2vw;
+        margin-left: 12vw;
+        margin-right: 12vw;
     }
     
     p{
@@ -369,7 +371,7 @@ p{
         font-family: 'Agrandir', sans-serif;
         color: #f9b025;
         position: absolute;
-        margin-top: 15vh;
+        top: 84%;
         margin-left: 6vw;
         line-height: 4vh;
     }
@@ -388,7 +390,7 @@ p{
         font-family: 'Agrandir', sans-serif;
         color: #f9b025;
         position: absolute;
-        margin-top: 24vh;
+        top: 92%;
         margin-left: 6vw;
     }
 

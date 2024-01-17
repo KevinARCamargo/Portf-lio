@@ -191,3 +191,89 @@ a:hover:after {
     border-radius: 10px;
     padding: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .logo{
+        width: 80vw;
+    }
+    .card {
+        display: inline-block;
+        max-width: 25vw;
+        max-height: 25vw;
+        background-color: lightgreen;
+        border-radius: 10px;
+    }
+
+    .cardFlipped{
+        display: inline-block;
+        max-width: 25vw;
+        max-width: 25vw;
+        background-size: cover;
+        background-color: white;
+        border: 2px solid gray;
+        border-radius: 10px;
+    }
+
+    #boardP {
+        display: grid;
+        grid-template-columns: repeat(3, 25vw);
+        gap: 2%;
+        width: 100vw;
+        height: 450px;
+        padding: 0px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-family: sans-serif;
+        align-content: center;
+        justify-content: center;
+        margin-top: 15%;
+    }
+
+    #boardE {
+        
+        display: grid;
+        grid-template-columns: repeat(4, 20vw);
+        gap: 1%;
+        width: 100%;
+        height: 90vh;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 0px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-family: sans-serif;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #cardE{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    
+    #boardG {
+        display: grid;
+        grid-template-columns: repeat(5, 18vw);
+        gap: 0.5%;
+        width: 100vw;
+        height: 90vh;
+        margin-left: 0%;
+        margin-top: 0%;
+        margin-right: 0%;
+        padding: 1%;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-size: 18px;
+        font-family: sans-serif;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #cardG{
+        width: 18vw;
+        height: 18vw;
+    }
+}

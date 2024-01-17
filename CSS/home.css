@@ -203,62 +203,6 @@ main{
     border: 5px solid black;
     border-radius: 180px;
 }
-/*Sobre*/
-
-.carrossel-container {
-    position: relative;
-    overflow: hidden;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-top: 5vh;
-    height: 75vh;
-}
-  
-  .carrossel-slide {
-    display: none;
-  }
-  
-  .carrossel-slide img {
-    width: 90%;
-    height: 75vh;
-    display: block;
-    margin: auto;
-    background-color: white;
-    border-radius: 5px;
-  }
-  
-  
-  .carrossel-prev,
-  .carrossel-next {
-    position: absolute;
-    top: 50%;
-    font-size: 2vw;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .carrossel-prev {
-    left: 0;
-  }
-  
-  .carrossel-next {
-    right: 0;
-  }
-  
-  .carrossel-indicador {
-    margin-top: 2vh;
-    margin-right: 1vh;
-    width: 0.75vw;
-    height: 1.5vh;
-    display: inline-block;
-    background-color: #717171;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .carrossel-indicador.active {
-    background-color: #fff;
-  }
 
 /*Projetos*/
 
@@ -325,8 +269,17 @@ main{
     align-items: center;
 }
 
+.skills{
+    text-align: center;
+}
+
 .skills-img{
     width: 10vh;
+}
+
+.skills-text{
+    color: #fff;
+    font-style: bold;
 }
 
 /*Celular*/
@@ -473,7 +426,7 @@ main{
     /*Habilidades*/
     .competencias-box {
 
-        margin: 15vh 15vw 0vh 15vw;
+        margin: 15vh 10vw 0vh 10vw;
         height: 40vh;
         gap: 5vw;
         border: none;
@@ -495,9 +448,9 @@ main{
         padding-top: 30px;
         height: 4vh;
     }
-
-
+    
 }
+        
   
   
 
